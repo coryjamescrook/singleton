@@ -6,7 +6,7 @@ Simply install:
 `npm install @coryjamescrook/singleton`
 
 Import into your project:
-`import { Singleton } from @coryjamescrook/singleton`
+`import { Singleton } from '@coryjamescrook/singleton'`
 
 Extend your singleton class from it:
 ```javascript
