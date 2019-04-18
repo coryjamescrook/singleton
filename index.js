@@ -1,12 +1,12 @@
 class Singleton {
-  static _instance
-
-  static instance() {
-    if (!this._instance) {
-      this._instance = new Singleton()
+  constructor() {
+    if (!Singleton.instance) {
+      return Singleton.instance
     }
 
-    return this._instance
+    Singleton.instance = this
+
+    return this
   }
 }
 

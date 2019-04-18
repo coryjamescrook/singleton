@@ -19,14 +19,27 @@ const Singleton = require('@coryjamescrook/singleton')
 
 Extend your singleton class from it:
 ```javascript
-class SomeService extends Singleton {
-  // whatever content your class needs
+class Test extends Singleton {
+  constructor() {
+    super()
+    this.name = "TEST"
+  }
+
+  sayMyName() {
+    console.log(`Hi! My name is ${this.name}`)
+  }
 }
 ```
 
 Get the singleton instance of your class:
 ```javascript
-const service = SomeService.instance()
+const t = new Test
+// only one instance of the object will ever be created
+```
+
+Try it out:
+```javascript
+console.log(t.sayMyName())
 ```
 
 Voila!
