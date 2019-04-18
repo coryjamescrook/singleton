@@ -3,10 +3,19 @@ A simple design pattern for a singleton class in javascript.
 
 #### To use
 Simply install:
-`npm install @coryjamescrook/singleton`
+```javascript
+npm install @coryjamescrook/singleton
+```
+
 
 Import into your project:
-`import { Singleton } from '@coryjamescrook/singleton'`
+```javascript
+import { Singleton } from '@coryjamescrook/singleton'
+```
+or
+```javascript
+const Singleton = require('@coryjamescrook/singleton')
+```
 
 Extend your singleton class from it:
 ```javascript

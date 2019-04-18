@@ -10,6 +10,4 @@ class Singleton {
   }
 }
 
-module.exports = {
-  Singleton: Singleton
-}
+module.exports = Singleton
