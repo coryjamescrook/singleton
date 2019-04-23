@@ -10,7 +10,7 @@ npm install @coryjamescrook/singleton
 
 Import into your project:
 ```javascript
-import { Singleton } from '@coryjamescrook/singleton'
+import Singleton from '@coryjamescrook/singleton'
 ```
 or
 ```javascript
