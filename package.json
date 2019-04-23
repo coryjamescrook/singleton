@@ -1,6 +1,6 @@
 {
   "name": "@coryjamescrook/singleton",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "A simple design pattern for a singleton class in javascript",
   "main": "index.js",
   "scripts": {
