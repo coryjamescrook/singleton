@@ -4,7 +4,8 @@
   "description": "A simple design pattern for a singleton class in javascript",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "pub": "npm publish --access public"
   },
   "repository": {
     "type": "git",
